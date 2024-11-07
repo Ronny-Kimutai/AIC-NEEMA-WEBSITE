@@ -1,0 +1,19 @@
+.carousel-caption {
+    font-family: Arial, sans-serif; /* Use a modern, readable font */
+    font-size: 2rem; /* Increase the font size */
+    color: #ffffff; /* White text for contrast */
+    font-weight: bold; /* Bold for emphasis */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 20px; /* Padding around text */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Subtle shadow for readability */
+}
+
+.carousel-caption h5 {
+    font-size: 2.5rem; /* Larger title */
+    margin-bottom: 10px; /* Space below title */
+}
+
+.carousel-caption p {
+    font-size: 1.5rem; /* Slightly smaller subtitle */
+}
