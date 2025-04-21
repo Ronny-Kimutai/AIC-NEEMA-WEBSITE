@@ -41,7 +41,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
     // Define the target date (October 25, 2024, at midnight)
-    const targetDate = new Date("2025-03-09T00:00:00");
+    const targetDate = new Date("2025-04-25T21:30:00");
 
     // Function to update the countdown
     function updateCountdown() {

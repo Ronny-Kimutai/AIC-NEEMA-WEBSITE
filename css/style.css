@@ -4992,7 +4992,8 @@ textarea.form-control-lg {
   color: #212529; }
 
 .carousel {
-  position: relative; }
+  position: relative; 
+  }
 
 .carousel.pointer-event {
   -ms-touch-action: pan-y;
@@ -6305,7 +6306,9 @@ textarea.form-control-lg {
   color: #212529 !important; }
 
 .text-white {
-  color: #fff !important; }
+  color: black !important;
+  font-size: 20px; 
+  font-family: 'Times New Roman', Times, serif;}
 
 .text-body {
   color: #212529 !important; }
@@ -6339,7 +6342,7 @@ textarea.form-control-lg {
 
 .bg-secondary {
   background-color: #0d6efd !important;
-  opacity: 0.8; }
+  opacity: 1; }
 
 .bg-success {
   background-color: #198754 !important; }
@@ -9144,7 +9147,7 @@ textarea {
     height: 100vh;
     min-height: 640px; }
   .hero.overlay {
-    position: relative; }
+    position: relative;}
     .hero.overlay:before {
       position: absolute;
       content: "";
@@ -9152,7 +9155,7 @@ textarea {
       right: 0;
       bottom: 0;
       top: 0;
-      background: #0d6efd; /* Dark Blue background */
+      background: darkblue; /* Dark Blue background */
       opacity: 0.8; 
       /* background: rgba(44, 115, 107, 0.5);  */
       /* background: rgba(44, 115, 107, 0.95); */
@@ -9161,14 +9164,23 @@ textarea {
     position: relative;
     z-index: 9; }
   .hero h1, .hero .h1 {
-    color: #fff;
-    font-size: 40px;
-    font-weight: 700; }
+    color: black;
+    font-size: 100px;
+    font-weight: 500;
+  }
     @media (max-width: 767.98px) {
       .hero h1, .hero .h1 {
         font-size: 30px; } }
   .hero p {
-    color: #fff; }
+    color: white;
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+   }
+   .hero p a {
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+   }
   .hero .subheading {
     text-transform: uppercase;
     font-size: 12px;
@@ -9184,7 +9196,7 @@ textarea {
   padding-top: 7rem;
   padding-bottom: 7rem; }
   .section .heading {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 700; }
     @media (max-width: 767.98px) {
       .section .heading {
@@ -9192,7 +9204,7 @@ textarea {
   .section .subheading {
     color: black;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 40px;
     letter-spacing: .1rem;
     font-weight: bold; }
 
@@ -9349,7 +9361,10 @@ textarea {
       opacity: .4; }
 
 .opac-white-5 {
-  color: rgba(255, 255, 255, 0.5); }
+  color: white;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  }
 
 .opac-black-5 {
   color: rgba(0, 0, 0, 0.5); }
