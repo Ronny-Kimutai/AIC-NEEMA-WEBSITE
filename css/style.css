@@ -8645,10 +8645,11 @@ textarea.form-control-lg {
   top: 0;
   z-index: 9;
   background-color: red;
-  width: 100%; }
+  width: 100%; 
+}
 
   .site-nav .logo img {
-    height: auto; /* Keeps the aspect ratio */
+    height: 50px; /* Keeps the aspect ratio */
     max-height: auto; /*Limits the height of the logo */
     width: auto; /* Keeps the width proportional */
 }
@@ -8667,7 +8668,7 @@ textarea.form-control-lg {
     .site-nav .site-navigation .site-menu > li {
       display: inline-block; }
       .site-nav .site-navigation .site-menu > li > a {
-        font-size: 18px;
+        font-size: 15px;
         padding: 10px 15px;
         display: inline-block;
         text-decoration: none !important;
