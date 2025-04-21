@@ -8648,16 +8648,16 @@ textarea.form-control-lg {
   width: 100%; }
 
   .site-nav .logo img {
-    margin-top: 0;
-    height: 100%; /* Keeps the aspect ratio */
-    max-height: 20%; /*Limits the height of the logo */
-    width: 10%; /* Keeps the width proportional */
+    height: auto; /* Keeps the aspect ratio */
+    max-height: auto; /*Limits the height of the logo */
+    width: auto; /* Keeps the width proportional */
 }
 
-
-.site-nav {
-  padding-top: 20px;
-  padding-bottom: 20px; }
+.site-nav 
+{
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
   .site-nav h1, .site-nav .h1 {
     margin: 0;
     padding: 0;
