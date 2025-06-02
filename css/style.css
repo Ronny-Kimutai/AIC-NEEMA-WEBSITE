@@ -9164,8 +9164,8 @@ textarea {
     position: relative;
     z-index: 9; }
   .hero h1, .hero .h1 {
-    color: black;
-    font-size: 100px;
+    color: wheat;
+    font-size: 150px;
     font-weight: 500;
   }
     @media (max-width: 767.98px) {
