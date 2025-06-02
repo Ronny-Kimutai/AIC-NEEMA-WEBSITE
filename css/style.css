@@ -9464,9 +9464,10 @@ textarea {
 
 .site-footer {
   background: black !important;
-  font-size: 14px;
+  font-size: 15px;
   color: #888;
-  padding: 70px 0; }
+  padding: 50px;
+ }
   .site-footer a {
     color: #777;
     position: relative;
