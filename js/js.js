@@ -40,8 +40,8 @@
 // });
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Define the target date (October 25, 2024, at midnight)
-    const targetDate = new Date("2025-06-08T10:30:00");
+    // Define the target date
+    const targetDate = new Date("2025-09-14T10:30:00"); //Year - Month (0-11) - Day - Hour - Minute - Second
 
     // Function to update the countdown
     function updateCountdown() {
