@@ -1,21 +1,5 @@
 ---
 deployment:
   tasks:
-    # Set the deployment path to your web root
     - export DEPLOYPATH=/home3/aicneema/public_html
-    
-    # Remove old web files (be more specific to avoid accidents)
-    - /bin/rm -rf $DEPLOYPATH/css
-    - /bin/rm -rf $DEPLOYPATH/fonts  
-    - /bin/rm -rf $DEPLOYPATH/images
-    - /bin/rm -rf $DEPLOYPATH/js
-    - /bin/rm -rf $DEPLOYPATH/scss
-    - /bin/rm -f $DEPLOYPATH/*.html
-    
-    # Copy all files from repository to web root
-    - /bin/cp -R css $DEPLOYPATH/
-    - /bin/cp -R fonts $DEPLOYPATH/
-    - /bin/cp -R images $DEPLOYPATH/
-    - /bin/cp -R js $DEPLOYPATH/
-    - /bin/cp -R scss $DEPLOYPATH/
-    - /bin/cp *.html $DEPLOYPATH/
+    - /bin/cp -R . $DEPLOYPATH/
