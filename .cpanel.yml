@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home3/aicneema/public_html/
+    - export DEPLOYPATH=/home2/aicneema/public_html/
     - /bin/cp -r * $DEPLOYPATH
