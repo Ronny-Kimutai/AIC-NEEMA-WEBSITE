@@ -9194,7 +9194,13 @@ textarea {
 
 .section {
   padding-top: 7rem;
-  padding-bottom: 7rem; }
+  padding-bottom: 3rem;
+}
+
+/* Reduce gap between Recent Sermons and About Us */
+.section + .section {
+  padding-top: 3rem;
+}
   .section .heading {
     font-size: 50px;
     font-weight: 700; }

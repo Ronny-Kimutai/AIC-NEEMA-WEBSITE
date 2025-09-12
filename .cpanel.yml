@@ -1,0 +1,11 @@
+---
+deployment:
+  tasks:
+    # Deployment path = your actual web root
+    - export DEPLOYPATH=/home3/aicneema/
+
+    # Clear old files
+    - /bin/rm -rf $DEPLOYPATH/*
+
+    # Copy everything from repo into web root
+    - /bin/cp -R * $DEPLOYPATH
