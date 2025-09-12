@@ -2,4 +2,11 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home3/aicneema/public_html
-    - /bin/cp -R . $DEPLOYPATH/
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/rm -rf $DEPLOYPATH/*
+    - /bin/cp -R css $DEPLOYPATH/
+    - /bin/cp -R fonts $DEPLOYPATH/
+    - /bin/cp -R images $DEPLOYPATH/
+    - /bin/cp -R js $DEPLOYPATH/
+    - /bin/cp -R scss $DEPLOYPATH/
+    - /bin/cp *.html $DEPLOYPATH/
