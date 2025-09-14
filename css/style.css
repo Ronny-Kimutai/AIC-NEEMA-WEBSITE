@@ -1,3 +1,58 @@
+/* Responsive fixes for Ministries sidebar and carousel */
+@media (max-width: 991.98px) {
+  .hero .row.align-items-center > .col-lg-5,
+  .hero .row.align-items-center > .col-lg-7 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .hero .col-lg-7 {
+    margin-top: 2rem;
+  }
+  #foregroundCarousel {
+    width: 100% !important;
+    max-width: 100vw;
+  }
+  #foregroundCarousel .carousel-inner,
+  #foregroundCarousel .carousel-item,
+  #foregroundCarousel img {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100vw;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section .row.g-5 > [class^="col-"] {
+    max-width: 100%;
+    flex: 0 0 100%;
+    margin-bottom: 2rem;
+  }
+  .sermon-entry img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+  .sermon-entry {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero .intro-text h1.hero-heading {
+    font-size: 2rem;
+  }
+  .hero .intro-text p {
+    font-size: 1rem;
+  }
+  .carousel-caption p {
+    font-size: 0.95rem;
+  }
+}
 /* Add space above the 'Grow spiritually with our sermons' section */
 .sec-cta {
   margin-top: 3rem;
