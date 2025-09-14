@@ -30,51 +30,39 @@
 </head>
 <body >
 
-	<div class="site-mobile-menu site-navbar-target">
-		<div class="site-mobile-menu-header">
-			<div class="site-mobile-menu-close">
-				<span class="icofont-close js-menu-toggle"></span>
-			</div>
-		</div>
-		<div class="site-mobile-menu-body"></div>
-	</div>
+	   <div class="site-mobile-menu site-navbar-target">
+		   <div class="site-mobile-menu-header">
+			   <div class="site-mobile-menu-close">
+				   <span class="icofont-close js-menu-toggle"></span>
+			   </div>
+		   </div>
+		   <div class="site-mobile-menu-body"></div>
+	   </div>
 
-	<nav class="site-nav">
-		<div class="container">
-			<div class="site-navigation">
-				<a href="index.html" class="logo m-0 float-left">
-					<img src="images/aiclogo-removebg-preview.png" alt="AIC-NEEMA" style="height: 70px;">
-				</a>
+	   <nav class="site-nav">
+		   <div class="container">
+			   <div class="site-navigation">
+				   <a href="index.html" class="logo m-0 float-left">
+					   <img src="images/aiclogo-removebg-preview.png" alt="AIC-NEEMA" style="height: 70px;">
+				   </a>
 
-				<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
-					<li><a href="index.html">Home</a></li>
-					<li class="has-children">
-						<a href="sermons.html">Sermons</a>
-						<!-- <ul class="dropdown">
-							<li><a href="sermons.html">Sermons</a></li>
-							<li><a href="sermon.html">Sermons Single</a></li>
-							
-						</ul> -->
-					</li>
-					<li><a href="ministry.html">Ministries</a></li>
-					<li><a href="events.html">Events</a></li>
-					<li><a href="sermons.html">Sermon</a></li>
-					<li><a href="Services.html">Services</a></li>
-					<li><a href="Give.html">Givings</a></li> 
-					<li class="active"><a href="contact.html">Contact</a></li>
-					<li class="cta-button"><a href="contact.html">Request a prayer</a></li>
-				</ul>
+				   <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+					   <li><a href="index.html">Home</a></li>
+					   <li><a href="ministry.html">Ministries</a></li>
+					   <li><a href="events.html">Events</a></li>
+					   <li><a href="sermons.html">Sermon</a></li>
+					   <li><a href="Services.html">Services</a></li>
+					   <li><a href="Give.html">Givings</a></li> 
+					   <li class="active"><a href="contact.html">Contact</a></li>
+					   <li class="cta-button"><a href="contact.html">Request a prayer</a></li>
+				   </ul>
 
-				
-
-				<a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
-					<span></span>
-				</a>
-
-				
-			</div>
-		</div>
-	</nav>
+				   <a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
+					   <span></span>
+				   </a>
+			   </div>
+		   </div>
+	   </nav>
 	
 	<div class="hero overlay" style="background-image: url('images/download.jpeg'); ">
 		<div class="container">
@@ -85,7 +73,7 @@
 							<h1 data-aos="fade-left" class="hero-heading">Contact Us</h1>
 						</div>
 						<div class="">
-							<p class="mb-5 opacity-5" data-aos="fade-left" data-aos-delay="200">Welcome to AIC Neema, located near Wilson Airport along Langata Road, Nairobi. We are close to the Carnivore Grounds, making it easy to find and visit. Join us for worship and fellowship!.</p>
+							<p class="mb-5 opacity-5" data-aos="fade-left" data-aos-delay="200" style="color: #fff;">Welcome to AIC Neema, located near Wilson Airport along Langata Road, Nairobi. We are close to the Carnivore Grounds, making it easy to find and visit. Join us for worship and fellowship!.</p>
 							<p data-aos="fade-left" data-aos-delay="300"><a href="sermons.html" class="btn btn-primary">Go to sermons</a></p>
 						</div>
 					</div>
@@ -100,57 +88,101 @@
 			</div>
 		</div>
 	</div>
-	<div class="row">
+
+	<div class="row justify-content-center align-items-stretch py-5">
 		<div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
-			<form class="contact-form" action="mailto:aicwilsonchurch@gmail.com" method="post" enctype="text/plain">
-				<div class="row">
-					<div class="col-6">
-						<div class="mb-3">
-							<label class="text-black" for="fname">First name</label>
-							<input type="text" class="form-control" id="fname" name="First Name" required>
+			<div class="card shadow contact-card border-0 rounded-4">
+				<div class="card-body p-4 p-md-5">
+					<h3 class="mb-4 text-center fw-bold" style="color:#2C3E50;">Send Us a Message</h3>
+					<form class="contact-form" action="mailto:aicwilsonchurch@gmail.com" method="post" enctype="text/plain">
+						<div class="row">
+							<div class="col-12 col-md-6 mb-3">
+								<label class="form-label fw-semibold" for="fname">First Name</label>
+								<input type="text" class="form-control rounded-3" id="fname" name="First Name" required>
+							</div>
+							<div class="col-12 col-md-6 mb-3">
+								<label class="form-label fw-semibold" for="lname">Last Name</label>
+								<input type="text" class="form-control rounded-3" id="lname" name="Last Name" required>
+							</div>
 						</div>
-					</div>
-					<div class="col-6">
 						<div class="mb-3">
-							<label class="text-black" for="lname">Last name</label>
-							<input type="text" class="form-control" id="lname" name="Last Name" required>
+							<label class="form-label fw-semibold" for="email">Email Address</label>
+							<input type="email" class="form-control rounded-3" id="email" name="Email" required>
 						</div>
-					</div>
+						<div class="mb-4">
+							<label class="form-label fw-semibold" for="message">Message</label>
+							<textarea name="Message" class="form-control rounded-3" id="message" cols="30" rows="5" required></textarea>
+						</div>
+						<div class="d-grid">
+							<button type="submit" class="btn btn-primary btn-lg rounded-3 shadow-sm">Send Message</button>
+						</div>
+					</form>
 				</div>
-				<div class="mb-3">
-					<label class="text-black" for="email">Email address</label>
-					<input type="email" class="form-control" id="email" name="Email" required>
-				</div>
-	
-				<div class="mb-3">
-					<label class="text-black" for="message">Message</label>
-					<textarea name="Message" class="form-control" id="message" cols="30" rows="5" required></textarea>
-				</div>
-	
-				<button type="submit" class="btn btn-primary">Send Message</button>
-			</form>
+			</div>
 		</div>
-		<div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="200">
+		<div class="col-lg-5 ml-auto d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
 			<div class="quick-contact-item d-flex align-items-center mb-4">
-				<span class="icon-home"></span>
-				<address class="text">
+				<span class="icon-home me-3"></span>
+				<address class="text mb-0">
 					AIC-Neema Wilson Airport. Nairobi, Kenya
 				</address>
 			</div>
 			<div class="quick-contact-item d-flex align-items-center mb-4">
-				<span class="icon-phone"></span>
-				<address class="text">
+				<span class="icon-phone me-3"></span>
+				<address class="text mb-0">
 					+254 702861576
 				</address>
 			</div>
 			<div class="quick-contact-item d-flex align-items-center mb-4">
-				<span class="icon-envelope"></span>
-				<address class="text">
+				<span class="icon-envelope me-3"></span>
+				<address class="text mb-0">
 					aicwilsonchurch@gmail.com
 				</address>
 			</div>
 		</div>
 	</div>
+
+	<style>
+		.contact-card {
+			background: #fff;
+			border-radius: 1.5rem;
+			box-shadow: 0 4px 24px rgba(44, 62, 80, 0.08);
+			border: 1px solid #e3e6ea;
+		}
+		.contact-form label.form-label {
+			color: #2C3E50;
+			font-size: 1rem;
+			margin-bottom: 0.3rem;
+		}
+		.contact-form .form-control {
+			background: #f8f9fa;
+			border: 1px solid #d1d5db;
+			font-size: 1rem;
+			padding: 0.75rem 1rem;
+			margin-bottom: 0.2rem;
+			box-shadow: none;
+			transition: border-color 0.2s;
+		}
+		.contact-form .form-control:focus {
+			border-color: #519259;
+			outline: none;
+			box-shadow: 0 0 0 2px rgba(81,146,89,0.08);
+		}
+		.contact-form .btn-primary {
+			background: linear-gradient(90deg, #519259 0%, #2C736B 100%);
+			border: none;
+			font-weight: 600;
+			letter-spacing: 0.5px;
+			box-shadow: 0 2px 8px rgba(81,146,89,0.08);
+			transition: background 0.2s;
+		}
+		.contact-form .btn-primary:hover {
+			background: linear-gradient(90deg, #2C736B 0%, #519259 100%);
+		}
+		@media (max-width: 991.98px) {
+			.contact-card { margin-bottom: 2rem; }
+		}
+	</style>
 	
 	</div>
 
@@ -163,60 +195,113 @@
 
 
 
-	<div class="site-footer bg-white">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4">
-					<div class="widget">
-						<h3>Contact</h3>
-						<address>AIC-Neema Wilson Airport. Nairobi, Kenya</address>
-						<ul class="list-unstyled links">
-							<li><a href="tel://254729243824">+254 702861576</a></li>
-							<li><a href="tel://254729243824">+254 702861576</a></li>
-							<li><a href="mailto:aicwilsonchurch@gmail.com">aicwilsonchurch@gmail.com</a></li>
+		<footer class="site-footer pt-4 pb-2">
+			<div class="container">
+				<!-- First row: logo, social, contact -->
+				<div class="row mb-4">
+					<div class="col-md-4 text-center mb-3 mb-md-0">
+						<img src="images/aiclogo-removebg-preview.png" alt="AIC-NEEMA" style="height: 60px;">
+						<h5 class="fw-bold mt-2 mb-1">AIC Neema Wilson Airport</h5>
+						<p class="mb-0 small">Nairobi, Kenya</p>
+					</div>
+					<div class="col-md-4 text-center mb-3 mb-md-0">
+						<ul class="list-inline mb-2">
+							<li class="list-inline-item mx-2"><a href="https://www.instagram.com/aic_wilson_airport/profilecard/?igsh=MWh6emZsNzhsaDdwbw==" class="footer-social"><span class="icon-instagram"></span></a></li>
+							<li class="list-inline-item mx-2"><a href="https://youtube.com/@aicneemawilsonairport?feature=shared" class="footer-social"><span class="icon-youtube"></span></a></li>
+							<li class="list-inline-item mx-2"><a href="https://www.tiktok.com/@aic_neema_wilson_airport?_t=8qB1g3zTR0I&_r=1" class="footer-social"><span class="icon-twitter"></span></a></li>
+							<li class="list-inline-item mx-2"><a href="http://facebook.com/AIC-NEEMA-Wilson-Airport" class="footer-social"><span class="icon-facebook"></span></a></li>
 						</ul>
-					</div> <!-- /.widget -->
-				</div> <!-- /.col-lg-4 -->
-				<div class="col-lg-4">
-					<div class="widget">
-						<h3>Sources</h3>
-						<ul class="list-unstyled float-start links">
-							<li><a href="ministry.html">About us</a></li>
-							<li><a href="Services.html">Services</a></li>
-							<li><a href="#">Vision</a></li>
-							<li><a href="#">Mission</a></li>
-						</ul>
-						<ul class="list-unstyled float-start links">
-							<li><a href="#">Partners</a></li>
-							<li><a href="#">FAQ</a></li>
-						</ul>
-					</div> <!-- /.widget -->
-				</div> <!-- /.col-lg-4 -->
-				<div class="col-lg-4">
-					<div class="widget">
-						<h3>Links</h3>
-						<ul class="list-unstyled links">
-							<li><a href="#">Our Vision</a></li>
-							<li><a href="index.html">About us</a></li>
-							<li><a href="contact.html">Contact us</a></li>
-						</ul>
-
-						<ul class="list-unstyled social">
-							<li><a href="https://www.instagram.com/aic_wilson_airport/profilecard/?igsh=MWh6emZsNzhsaDdwbw=="><span class="icon-instagram"></span></a></li>
-							<li><a href="https://youtube.com/@aicneemawilsonairport?feature=shared"><span class="icon-youtube"></span></a></li>
-							<li><a href="#"><span class="icon-twitter"></span></a></li>
-							<li><a href="http://facebook.com/AIC-NEEMA-Wilson-Airport"><span class="icon-facebook"></span></a></li>
-						</ul>
-					</div> <!-- /.widget -->
-				</div> <!-- /.col-lg-4 -->
-			</div> <!-- /.row -->
-
-			<div class="row mt-5">
-				<div class="col-12 text-center">
+						<p class="mb-0 small">Follow us on social media</p>
+					</div>
+					<div class="col-md-4 text-center">
+						<h6 class="fw-bold mb-1">Contact</h6>
+						<div class="small mb-2">
+							<div><span class="fw-bold">Phone:</span> <a href="tel://254729243824" class="text-dark text-decoration-underline">+254 729 243824</a></div>
+							<div><span class="fw-bold">Email:</span> <a href="mailto:aicwilsonchurch@gmail.com" class="text-dark text-decoration-underline">aicwilsonchurch@gmail.com</a></div>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div> <!-- /.container -->
-	</div> <!-- /.site-footer -->
+
+				<!-- Second row: quick links, service times, map -->
+				<div class="row mb-4">
+					<div class="col-md-4 mb-3 mb-md-0 text-center">
+						<h6 class="fw-bold mb-1">Quick Links</h6>
+						<ul class="list-unstyled small mb-0">
+							<li><a href="index.html" class="text-dark text-decoration-underline">About us</a></li>
+							<li><a href="Services.html" class="text-dark text-decoration-underline">Services</a></li>
+							<li><a href="events.html" class="text-dark text-decoration-underline">Events</a></li>
+							<li><a href="sermons.html" class="text-dark text-decoration-underline">Sermons</a></li>
+							<li><a href="Give.html" class="text-dark text-decoration-underline">Givings</a></li>
+							<li><a href="contact.html" class="text-dark text-decoration-underline">Contact</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 mb-3 mb-md-0 text-center">
+						<h6 class="fw-bold mb-1">Service Times</h6>
+						<ul class="list-unstyled small mb-0">
+							<li>Morning Glory: 8 AM - 9 AM</li>
+							<li>Main Service: 10 AM - 12:30 PM</li>
+							<li>Youth Service: 12:30 PM - 1:30 PM</li>
+						</ul>
+					</div>
+					<div class="col-md-4 mb-3 mb-md-0 text-center">
+						<h6 class="fw-bold mb-1">Location</h6>
+						<div class="footer-map mb-2" style="max-width: 350px; margin: 0 auto;">
+							  <iframe src="https://www.google.com/maps?q=AIC+Neema+Wilson+Airport,+Nairobi,+Kenya&output=embed" width="100%" height="140" style="border:0; border-radius:8px; min-width:180px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							  <div class="small mt-1">AIC Neema Wilson Airport, Nairobi, Kenya</div>
+						</div>
+					</div>
+				</div>
+						<p class="mb-0 small">&copy; <span id="footer-year"></span> AIC Neema Wilson Airport. All rights reserved.</p>
+					</div>
+				</div>
+		</footer>
+
+		<style>
+			.site-footer {
+				background: #f8f9fa !important;
+				color: #222 !important;
+				border-top: 3px solid #519259;
+				font-size: 1rem;
+			}
+			.site-footer h5, .site-footer h6, .site-footer h4 {
+				color: #519259;
+			}
+			.site-footer a {
+				color: #222;
+				transition: color 0.2s;
+			}
+			.site-footer a:hover {
+				color: #519259;
+				text-decoration: underline;
+			}
+			.footer-social {
+				font-size: 2rem;
+				color: #519259 !important;
+				transition: color 0.2s;
+			}
+			.footer-social:hover {
+				color: #2C736B !important;
+			}
+			.site-footer ul {
+				padding-left: 0;
+				list-style: none;
+			}
+			.site-footer .fw-bold {
+				font-weight: 600 !important;
+			}
+			@media (max-width: 767.98px) {
+				.site-footer .col-md-4, .site-footer .col-md-6, .site-footer .col-lg-4 {
+					margin-bottom: 1.5rem;
+				}
+			}
+		</style>
+		<script>
+			// Set current year in footer
+			document.addEventListener('DOMContentLoaded', function() {
+				var yearSpan = document.getElementById('footer-year');
+				if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+			});
+		</script>
 
 
 	<!-- Preloader -->
