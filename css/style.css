@@ -1,4 +1,7 @@
-
+/* Add space above the 'Grow spiritually with our sermons' section */
+.sec-cta {
+  margin-top: 3rem;
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #0d6efd;
