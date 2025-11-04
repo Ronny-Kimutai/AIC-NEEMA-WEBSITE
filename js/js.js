@@ -41,7 +41,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
     // Define the target date
-    const targetDate = new Date("2025-10-26T10:00:00"); //Year - Month (0-11) - Day - Hour - Minute - Second
+    const targetDate = new Date("2025-11-09T10:00:00"); //Year - Month (0-12) - Day - Hour - Minute - Second
 
     // Function to update the countdown
     function updateCountdown() {
