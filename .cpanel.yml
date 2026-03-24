@@ -2,4 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home3/aicneema/public_html/
-    - /usr/bin/rsync -av --delete ./ $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R .[^.]* $DEPLOYPATH
