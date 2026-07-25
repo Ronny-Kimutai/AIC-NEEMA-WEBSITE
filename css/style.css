@@ -9263,6 +9263,12 @@ textarea {
     position: relative;
     z-index: 2;
     color: #fff; }
+    .hero .intro-text {
+      background: rgba(0, 0, 0, 0.18);
+      padding: 1.25rem 1.25rem 1.5rem;
+      border-radius: 1rem;
+      backdrop-filter: blur(2px);
+    }
   .hero > .container,
   .hero > .container > .row {
     position: relative;
@@ -9277,6 +9283,16 @@ textarea {
     @media (max-width: 767.98px) {
       .hero h1, .hero .h1 {
         font-size: 30px; } }
+  @media (max-width: 767.98px) {
+    .hero .intro-text {
+      background: rgba(0, 0, 0, 0.32);
+      padding: 1rem;
+    }
+    .hero p {
+      font-size: 1.05rem;
+      line-height: 1.5;
+    }
+  }
   .hero p {
     color: #fff;
     font-size: 27px;
