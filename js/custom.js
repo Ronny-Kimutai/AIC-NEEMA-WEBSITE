@@ -6,7 +6,10 @@
 	AOS.init({
 		duration: 800,
 		easing: 'slide',
-		once: true
+		once: true,
+		disable: function() {
+			return window.innerWidth < 992;
+		}
 	});
 
 
@@ -160,8 +163,10 @@
 
 				if(diff < 0){
 
-					document.querySelector('.custom-alert').style.display = 'block';
-					document.querySelector('.counter-wrap').style.display = 'none';
+					var customAlert = document.querySelector('.custom-alert');
+					var counterWrap = document.querySelector('.counter-wrap');
+					if (customAlert) customAlert.style.display = 'block';
+					if (counterWrap) counterWrap.style.display = 'none';
 				}
 
 				let days = Math.floor(diff / (1000*60*60*24));
