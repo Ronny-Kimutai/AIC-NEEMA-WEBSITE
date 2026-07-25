@@ -9502,6 +9502,23 @@ textarea {
 .sec-cta {
   padding-top: 10rem; }
 
+.site-footer p.mb-0.small {
+  width: 100%;
+  text-align: center;
+}
+
+.quick-contact-item address {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 767.98px) {
+  .quick-contact-item .text,
+  .quick-contact-item address {
+    font-size: 0.92rem !important;
+    line-height: 1.4;
+  }
+}
+
 .custom-pagination a {
   display: inline-block;
   width: 40px;
@@ -9563,7 +9580,8 @@ textarea {
     transform: translate(-50%, -50%); }
 
 .quick-contact-item .text {
-  font-size: 20px; }
+  font-size: 1.05rem;
+  line-height: 1.4; }
 
 textarea {
   height: auto !important; }

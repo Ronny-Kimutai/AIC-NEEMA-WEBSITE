@@ -155,7 +155,7 @@
 
 		if ( el.length > 0 ) {
 
-			const finaleDate = new Date("December 10, 2022 00:00:00").getTime();
+			const finaleDate = new Date("July 26, 2026 00:00:00").getTime();
 
 			const timer = () =>{
 				const now = new Date().getTime();
@@ -173,6 +173,13 @@
 				let hours = Math.floor(diff % (1000*60*60*24) / (1000*60*60));
 				let minutes = Math.floor(diff % (1000*60*60)/ (1000*60));
 				let seconds = Math.floor(diff % (1000*60) / 1000);
+
+				if (diff < 0) {
+					days = 0;
+					hours = 0;
+					minutes = 0;
+					seconds = 0;
+				}
 
 				days <= 99 ? days = `0${days}` : days;
 				days <= 9 ? days = `00${days}` : days;
