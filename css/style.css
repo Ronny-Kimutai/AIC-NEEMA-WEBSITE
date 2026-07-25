@@ -9593,7 +9593,16 @@ textarea {
     text-transform: uppercase;
     letter-spacing: .2rem; }
   .counter .number {
-    font-size: 30px; }
+    font-size: 30px;
+    display: inline-block;
+    min-width: 2.2ch;
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum" 1; }
+
+.counter .d-block {
+  line-height: 1;
+}
 
 .sermon-meta {
   color: rgba(0, 0, 0, 0.9);

@@ -42,6 +42,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Define the target date
     const targetDate = new Date("2026-07-26T10:00:00"); //Year - Month (0-12) - Day - Hour - Minute - Second
+    const formatUnit = (value) => String(value).padStart(2, '0');
 
     // Function to update the countdown
     function updateCountdown() {
@@ -62,10 +63,10 @@ document.addEventListener("DOMContentLoaded", function () {
         const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
         // Update the HTML with the countdown values
-        document.getElementById("days").innerText = days;
-        document.getElementById("hours").innerText = hours;
-        document.getElementById("minutes").innerText = minutes;
-        document.getElementById("seconds").innerText = seconds;
+        document.getElementById("days").innerText = formatUnit(days);
+        document.getElementById("hours").innerText = formatUnit(hours);
+        document.getElementById("minutes").innerText = formatUnit(minutes);
+        document.getElementById("seconds").innerText = formatUnit(seconds);
     }
 
     // Call the update function immediately to set initial values
